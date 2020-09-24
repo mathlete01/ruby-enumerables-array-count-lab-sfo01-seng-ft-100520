@@ -3,7 +3,7 @@ def count_strings(array)
   total = 0
   array.count do |element|
     #  if element.is_a? (String)
-        element.instance_of?(String)
+        if element.instance_of?(String)
         total += 1
       end
   total
