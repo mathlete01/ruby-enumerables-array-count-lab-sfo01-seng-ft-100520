@@ -4,9 +4,9 @@ def count_strings(array)
   array.count do |element|
     #  if element.is_a? (String)
         element.instance_of?(String)
-        total += 1
+        #total += 1
       end
-  total
+  #total
 end
 
 
