@@ -5,7 +5,7 @@ def count_strings(array)
     #  if element.is_a? (String)
         if element.instance_of?(String)
         total += 1
-      end
+      #end
   total
 end
 
